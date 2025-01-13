@@ -1,3 +1,5 @@
+<a href="tweedeles.php">tweedeles</a>
+
 <?php
 	$persoon = "Felix";
 	$wens = "goedemorgen";
