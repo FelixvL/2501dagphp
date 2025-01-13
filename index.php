@@ -13,7 +13,7 @@ echo "felix";
 	echo "sandra";   // statement
 	// variabele
 		// waarde value
-	$x = 28;
+	$x = 8;
 
 	echo "<br>";
 ?>
@@ -28,11 +28,38 @@ echo "felix";
 	echo $weekdag;
 	$keuze = true;
 	echo $keuze;
-	$getal = 35.2;
+	// operand
+		// operator
+			// operand
+	$getal   =      35.2;
 	echo $getal;
-	if ( $x < 20){
+	// operator
+	// assignment operator
+	// = += -= /= 
+	// arithmic operator
+	// + - * / %
+	// comparative operator --> evalueert tot boolean
+	// < >  ==  <=  >= !=
+	// logische operators --> operand dat die al een boolean 
+	// --> evalueert tot boolean
+	// && ||
+
+	echo true and false;
+
+	echo "<br>";
+	echo 12 % 3;
+	$bedrag = 2295;
+	echo "<br>";
+	echo $bedrag / 100;
+	echo ".";
+	echo $bedrag % 100;
+	echo "<br>";
+	if( $x < 20){   // code conventie
 		echo "juist";
+	}else{
+		echo "onjuist";
 	}
+
 
 
 
