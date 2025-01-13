@@ -17,6 +17,10 @@ tweede pagina
 	print_r($lijst);
 	for($x = 0; $x < count($lijst); $x++){
 		echo "go";
+		echo " ";
+		echo $lijst[$x];
+		echo "<br>";
+		echo "tweede " . $lijst[$x] . "<br>";
 	}
 
 ?>
