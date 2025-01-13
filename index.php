@@ -44,13 +44,13 @@ echo "felix";
 	// --> evalueert tot boolean
 	// && ||
 
-	echo true and false;
+	echo $x < 5 || false;
 
 	echo "<br>";
 	echo 12 % 3;
 	$bedrag = 2295;
 	echo "<br>";
-	echo $bedrag / 100;
+	echo intval($bedrag / 100);
 	echo ".";
 	echo $bedrag % 100;
 	echo "<br>";
