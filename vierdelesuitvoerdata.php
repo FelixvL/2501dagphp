@@ -8,11 +8,17 @@
 ?>
 
 <?php
-$conn = mysqli_connect("localhost", "root", "", "voorbeeld");
 
-$result = mysqli_query($conn, "SELECT * FROM gebruikers");
+echo "<hr>";
+$conn = mysqli_connect("localhost", "root", "", "phpfundag12501");
+
+$result = mysqli_query($conn, "SELECT * FROM schip");
+
+// SELECT * FROM `schip` WHERE lengte > 20
+// SELECT * FROM `schip` WHERE naam like '%g%'
+
 while ($row = mysqli_fetch_assoc($result)) {
-    echo "Naam: " . $row['naam'] . ", Email: " . $row['email'] . "<br>";
+	echo "Te water datum: " . $row['tewaterdatum'] . ", Kapiteinaam: " . $row['kapitein'] . "<br>";
 }
 
 mysqli_close($conn);
