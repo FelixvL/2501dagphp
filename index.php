@@ -12,7 +12,9 @@ echo "felix";
 
 	echo "sandra";   // statement
 	// variabele
-	$x = 8;
+		// waarde value
+	$x = 28;
+
 	echo "<br>";
 ?>
 	<br>
@@ -20,4 +22,22 @@ echo "felix";
 	echo $x;
 	echo "<br>";
 	echo $x * 20;
+	//commentaar
+	// integer  double boolean "string"
+	$weekdag = "maandag";
+	echo $weekdag;
+	$keuze = true;
+	echo $keuze;
+	$getal = 35.2;
+	echo $getal;
+	if ( $x < 20){
+		echo "juist";
+	}
+
+
+
+
+
+
+
 ?>
