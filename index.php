@@ -1,4 +1,5 @@
-<a href="tweedeles.php">tweedeles</a>
+<a href="tweedeles.php">tweedeles</a><br><br>
+<a href="derdeles.php">derde les</a>
 
 <?php
 	$persoon = "Felix";
