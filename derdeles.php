@@ -16,7 +16,7 @@ return type  - return statement
 <?php
 function voerdituit(){
 	echo "<hr>";
-	echo "<h1>Dit is een kopje</h1>";
+	echo "<h1>Huis</h1>";
 	$x = 8;
 	echo "<br>";
 	echo $x * $x;
@@ -24,12 +24,19 @@ function voerdituit(){
 }
 
 voerdituit();
+voerdituit();
+voerdituit();
+voerdituit();
+voerdituit();
+voerdituit();
+voerdituit();
+voerdituit();
 
 
 						// parameter
 function steliemandvoor($naam, $leeftijd){
 	echo "<hr>";
-	echo "Hallo, ik ben ";
+	echo "Hoi, ik ben ";
 	echo $naam;
 	echo "en mijn leeftijd is: ".$leeftijd;
 }
@@ -64,7 +71,7 @@ $totaal = 0;
 
 
 for($x = 0; $x < count($getallen); $x++){
-	echo "<br>".$getallen[$x];
+	//echo "<br>".$getallen[$x];
 	$totaal += $getallen[$x];
 	
 }
@@ -74,7 +81,7 @@ echo $totaal;
 function allegetallenoptellen($rijmetgetallen){
 	$t = 0;
 	for($x = 0; $x < count($rijmetgetallen); $x++){
-		echo "<br>".$rijmetgetallen[$x];
+		//echo "<br>".$rijmetgetallen[$x];
 		$t += $rijmetgetallen[$x];
 		
 	}
