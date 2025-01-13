@@ -4,7 +4,6 @@
 ?>
 
 <form action="vierdelesuitvoerdata.php" method="GET">
-	<input type="color" name="ffkijken"><br>
-	<input type="file" name="watzouditzijn"><br>
+	voorkeur lengte boot<input type=text name=bootlengte>
 	<input type="submit" value="voer uit">
 </form>
