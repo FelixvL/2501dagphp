@@ -1,6 +1,7 @@
 <a href="tweedeles.php">tweedeles</a><br><br>
 <a href="derdeles.php">derde les</a>
 <a href="vierdelesinvoerdata.php">vierde les</a>
+<a href="vijfdeles.php">vijfde les schip toevoegen</a>
 
 <?php
 	$persoon = "Felix";
