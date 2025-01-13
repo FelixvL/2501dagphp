@@ -7,9 +7,17 @@ jouw saldo is: 700 euro
 
 
 echo "felix";
-
+<br><br><br><br><br>
 <?php
 
-	echo "sandra";
-
+	echo "sandra";   // statement
+	// variabele
+	$x = 8;
+	echo "<br>";
+?>
+	<br>
+<?php
+	echo $x;
+	echo "<br>";
+	echo $x * 20;
 ?>
