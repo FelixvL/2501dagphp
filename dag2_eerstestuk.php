@@ -22,13 +22,29 @@ derde
     $lijst = [45,3,2,66];
 
     echo $lijst[1];
-    $_GET["id"]
     $herinneringen = ["fiets.jpg","boot.jpg","bergen.jpg"];
     echo $herinneringen[1];
-    echo "<img id=\"foto\" src=\"$herinneringen[1]\">";
+  //  echo "<img id=\"foto\" src=\"$herinneringen[1]\">";
             // <img id="foto" src="boot.jpg">
-
-    $tweedarray = [ [1,2,3] ,[4,5,6] ,[7,8,9] ,[10,11,12] ];
+    echo "<hr>";
+    $tweedearray = [ 
+        [1,2,3] ,
+           // 2
+        [4,5,6] ,   // 1
+        [7,8,9] ,
+        [10,11,12] 
+    ];
+    $felix = ["felix", 45 , "eindhoven"];
+    echo $tweedearray[1][2];
+    echo $tweedearray[3][0];
+    echo "<hr>";
+    echo "<hr>";
+    print_r($tweedearray[1]);
+    
+    echo "<hr>";
+    $namenarray = ["hoi" => 5, "doei" => 7];
+    echo $namenarray["hoi"];
+    echo $namenarray["doei"];
 ?>
 
 <!-- <img id="foto" src="boot.jpg"> -->
