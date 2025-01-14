@@ -33,6 +33,18 @@ if (file_exists($filename)) {
 mkdir("nieuwe_map");
 echo "<hr><hr><hr>";
 print_r($_SERVER);
+
+$start = microtime(true);
+$directory = "bestanden";
+mkdir($directory);
+
+for ($i = 0; $i < 100; $i++) {
+    file_put_contents("$directory/bestand_$i.txt", "Inhoud van bestand $i");
+}
+
+$eind = microtime(true);
+echo "Batchverwerking voltooid in " . ($eind - $start) . " seconden.";
+
 //var_dump($_SERVER);
 //echo phpinfo();
 ?>
