@@ -27,6 +27,8 @@ derde
     echo $herinneringen[1];
     echo "<img id=\"foto\" src=\"$herinneringen[1]\">";
             // <img id="foto" src="boot.jpg">
+
+    $tweedarray = [ [1,2,3] ,[4,5,6] ,[7,8,9] ,[10,11,12] ];
 ?>
 
 <!-- <img id="foto" src="boot.jpg"> -->
