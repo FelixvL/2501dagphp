@@ -20,13 +20,14 @@ $result = mysqli_query($conn, $sql);
 // SELECT * FROM `schip` WHERE lengte > 20
 // SELECT * FROM `schip` WHERE naam like '%g%'
 
-while ($row = mysqli_fetch_assoc($result)) {
-	echo "Te water datum: " . $row['tewaterdatum'] . ", Kapiteinaam: " . $row['kapitein'] . "(".$row['id'].")<br>";
+while ($row = mysqli_fetch_assoc($result)) {																			// debootdetails.php?bootid=4												
+	echo "Te water datum: " . $row['tewaterdatum'] . ", Kapiteinaam: " . $row['kapitein'] . "(".$row['id'].") - <a href=debootdetails.php?bootid=".$row['id']." >bekijk details</a><br>";
 }
 
 mysqli_close($conn);
 ?>
 
+<a href="debootdetails.php?bootid=3" >tekst</a>
 
 
 $conn = mysqli_connect($servername, $username, $password, $database);
