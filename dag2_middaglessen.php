@@ -18,7 +18,7 @@ Has-a relatie
 <?php
 
 class Dier{
-
+    public $voornaam;
 
 }
 
@@ -26,11 +26,14 @@ class DierenAsiel{
     public $dier1;
     function __construct(){
         echo "er wordt een dierenasiel gemaakt"; 
+        $this->dier1 = new Dier();
     }
 
 }
 echo "<hr><hr>";
-new DierenAsiel();
+$da = new DierenAsiel();
+$da->dier1->voornaam = "piet";
+echo $da->dier1->voornaam;
 echo "<hr><hr>";
 
 
