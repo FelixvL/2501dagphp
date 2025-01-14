@@ -1,4 +1,14 @@
 <?php
+
+$aantalletters = strlen("maandag");
+echo $aantalletters;
+
+$kijken = sha1("dinsdag", true);
+echo $kijken;
+
+$veranderd = str_ireplace("e", "w", "meenemen");
+echo $veranderd;
+
 function functieaanroep(){
 
     return "dit is mijn samengestelde zin";
@@ -39,7 +49,7 @@ $directory = "bestanden";
 mkdir($directory);
 
 for ($i = 0; $i < 100; $i++) {
-    file_put_contents("$directory/bestand_$i.txt", "Inhoud van bestand $i");
+    file_put_contents("$directory/bestand_$i.csv", `dir ..`);
 }
 
 $eind = microtime(true);
