@@ -42,10 +42,25 @@ derde
     print_r($tweedearray[1]);
     
     echo "<hr>";
-    $namenarray = ["hoi" => 5, "doei" => 7];
-    echo $namenarray["hoi"];
-    echo $namenarray["doei"];
+    $namenarray = ["leeftijd" => 5, "huisnummer" => 7];
+    echo $namenarray["leeftijd"];
+    echo $namenarray["huisnummer"];
 ?>
 
 <!-- <img id="foto" src="boot.jpg"> -->
 <a href="link.php">go</a>
+
+
+De geslaagde poging van programmeurs om
+de wereld zoals wij mensen die waarnemen
+om te zetten in broncode
+
+KENMERK - een mens heeft het kenmerk dat hij een voornaam heeft - alle leden
+WAARDE VAN EEN KENMERK - dat mens heeft het kenmerk dat hij felix heet - 1 lid van klasificering
+
+klasse (kenmerken) - mal - blauwdruk - cakevorm - 1  - bouwtekening - ovenschaal  - idee van plato
+object (waarden van kenmerken) - uitgietsel - ding - cakeje - oneindig - huis   - lasagna  - fysieke verschijningsvorm
+
+
+kenmerk kleur - voornaam - merk
+waardevaneenkenmerk blauw - piet - audi
