@@ -21,7 +21,7 @@ $result = mysqli_query($conn, $sql);
 // SELECT * FROM `schip` WHERE naam like '%g%'
 
 while ($row = mysqli_fetch_assoc($result)) {
-	echo "Te water datum: " . $row['tewaterdatum'] . ", Kapiteinaam: " . $row['kapitein'] . "<br>";
+	echo "Te water datum: " . $row['tewaterdatum'] . ", Kapiteinaam: " . $row['kapitein'] . "(".$row['id'].")<br>";
 }
 
 mysqli_close($conn);
